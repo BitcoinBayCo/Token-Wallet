@@ -1,0 +1,26 @@
+{
+  "name": "token-wallet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node wallet.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChrisCates/Token-Wallet.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChrisCates/Token-Wallet/issues"
+  },
+  "homepage": "https://github.com/ChrisCates/Token-Wallet#readme",
+  "dependencies": {
+    "ethereumjs-tx": "^1.3.3",
+    "ethereumjs-util": "^5.1.2",
+    "ethereumjs-wallet": "^0.6.0",
+    "web3": "^1.0.0-beta.22"
+  }
+}
